@@ -6,5 +6,5 @@
     "version": "1.0",
     "categories": ["clips"],
     "keywords": ["jasmine", "nova", "clips", "code-editor", "javascript", "typescript", "testing", "test"],
-    "bugs": "todo"
+    "bugs": "https://github.com/KLongmuir/nova-jasmine-snippets/issues"
 }
