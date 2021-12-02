@@ -1,0 +1,10 @@
+{
+    "identifier": "kevinlongmuir.jasminetestclips",
+    "name": "Jasmine Test Framework Clips",
+    "organization": "Kevin Longmuir",
+    "description": "Jasmine test framework syntax snippets",
+    "version": "1.0",
+    "categories": ["clips"],
+    "keywords": ["jasmine", "nova", "clips", "code-editor", "javascript", "typescript", "testing", "test"],
+    "bugs": "todo"
+}
