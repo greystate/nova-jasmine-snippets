@@ -3,7 +3,7 @@
     "name": "Jasmine Test Framework Clips",
     "organization": "Kevin Longmuir",
     "description": "Jasmine test framework syntax snippets",
-    "version": "1.0",
+    "version": "1.0.1",
     "categories": ["clips"],
     "keywords": ["jasmine", "nova", "clips", "code-editor", "javascript", "typescript", "testing", "test"],
     "repository": "https://github.com/KLongmuir/nova-jasmine-snippets",
