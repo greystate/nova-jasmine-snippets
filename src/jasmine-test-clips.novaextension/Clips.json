@@ -7,70 +7,70 @@
           "content" : "afterEach(() => {\n\t${:implementation}\n});",
           "name" : "afterEach",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "ae"
         },
         {
           "content" : "afterAll(() => {\n\t${:implementation}\n});",
           "name" : "afterAll",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "aa"
         },
         {
           "content" : "beforeEach(() => {\n\t${:implementation}\n});",
           "name" : "beforeEach",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "be"
         },
         {
           "content" : "beforeAll(() => {\n\t${:implementation}\n});",
           "name" : "beforeAll",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "ba"
         },
         {
           "content" : "describe(${:description}, () => {\n\t${:implementation}\n});",
           "name" : "describe block",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "desc"
         },
         {
           "content" : "fdescribe(${:description}, () => {\n\t${:implementation}\n});",
           "name" : "fdescribe block",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "xdesc"
         },
         {
           "content" : "xdescribe(${:description}, () => {\n\t${:implementation}\n});",
           "name" : "xdescribe block",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "xdesc"
         },
         {
           "content" : "it(${:description}, () => {\n\t${:implementation}\n});",
           "name" : "it block",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "it"
         },
         {
           "content" : "fit(${:description}, () => {\n\t${:implementation}\n});",
           "name" : "fit block",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "fit"
         },
         {
           "content" : "xit(${:description}, () => {\n\t${:implementation}\n});",
           "name" : "xit block",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "xit"
         }
       ]
@@ -82,259 +82,259 @@
           "content" : "expect(${:value})",
           "name" : "expect",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "exp"
         },
         {
           "content" : "expect(${:value}).toBe(${:expected});",
           "name" : "expect toBe",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "tb"
         },
         {
           "content" : "expect(${:value}).toBeCloseTo(${:expected});",
           "name" : "expect toBeCloseTo",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "tbct"
         },
         {
           "content" : "expect(${:value}).toBeDefined();",
           "name" : "expect toBeDefined",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "tbd"
         },
         {
           "content" : "expect(${:value}).toBeFalsy();",
           "name" : "expect toBeFalsy",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "tbf"
         },
         {
           "content" : "expect(${:value}).toBeGreaterThan(${:expected});",
           "name" : "expect toBeGreaterThan",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "tbgt"
         },
         {
           "content" : "expect(${:value}).toBeLessThan(${:expected});",
           "name" : "expect toBeLessThan",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "tblt"
         },
         {
           "content" : "expect(${:value}).toBeNull();",
           "name" : "expect toBeNull",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "tbn"
         },
         {
           "content" : "expect(${:value}).toBeTruthy();",
           "name" : "expect toBeTruthy",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "tbt"
         },
         {
           "content" : "expect(${:value}).toBeUndefined();",
           "name" : "expect toBeUndefined",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "tbu"
         },
         {
           "content" : "expect(${:value}).toContain(${:expected});",
           "name" : "expect toContain",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "tc"
         },
         {
           "content" : "expect(${:value}).toEqual(${:expected});",
           "name" : "expect toEqual",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "te"
         },
         {
           "content" : "expect(${:spy}).toHaveBeenCalled();",
           "name" : "expect spy toHaveBeenCalled",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "thbc"
         },
         {
           "content" : "expect(${:spy}).toHaveBeenCalledOnceWith(${:expected});",
           "name" : "expect spy toHaveBeenCalledOnceWith",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "thbcow"
         },
         {
           "content" : "expect(${:spy}).toHaveBeenCalledTimes(${:times});",
           "name" : "expect spy toHaveBeenCalledTimes",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "tbhct"
         },
         {
           "content" : "expect(${:spy}).toHaveBeenCalledWith(${:expected});",
           "name" : "expect spy toHaveBeenCalledWith",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "thbcw"
         },
         {
           "content" : "expect(${:value}).toMatch(${:expected});",
           "name" : "expect toMatch",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "tm"
         },
         {
           "content" : "expect(${:value}).toThrow(${:expected});",
           "name" : "expect toThrow",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "tt"
         },
         {
           "content" : "expect(${:value}).toThrowError(${:expected});",
           "name" : "expect toThrowError",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "tte"
         },
         {
           "content" : "expect(${:value}).not.toBe(${:expected});",
           "name" : "expect not toBe",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "nb"
         },
         {
           "content" : "expect(${:value}).not.toBeCloseTo(${:expected});",
           "name" : "expect not toBeCloseTo",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "nct"
         },
         {
           "content" : "expect(${:value}).not.toBeDefined();",
           "name" : "expect not toBeDefined",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "nd"
         },
         {
           "content" : "expect(${:value}).not.toBeFalsy();",
           "name" : "expect not toBeFalsy",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "nf"
         },
         {
           "content" : "expect(${:value}).not.toBeGreaterThan(${:expected});",
           "name" : "expect not toBeGreaterThan",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "ngt"
         },
         {
           "content" : "expect(${:value}).not.toBeLessThan(${:expected});",
           "name" : "expect not toBeLessThan",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "nlt"
         },
         {
           "content" : "expect(${:value}).not.toBeNull();",
           "name" : "expect not toBeNull",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "nn"
         },
         {
           "content" : "expect(${:value}).not.toBeTruthy();",
           "name" : "expect not toBeTruthy",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "nt"
         },
         {
           "content" : "expect(${:value}).not.toBeUndefined();",
           "name" : "expect not toBeUndefined",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "nu"
         },
         {
           "content" : "expect(${:value}).not.toContain(${:expected});",
           "name" : "expect not toBeFalsy",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "nc"
         },
         {
           "content" : "expect(${:value}).not.toEqual(${:expected});",
           "name" : "expect not toEqual",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "ne"
         },
         {
           "content" : "expect(${:spy}).not.toHaveBeenCalled();",
           "name" : "expect spy not toHaveBeenCalled",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "nthbc"
         },
         {
           "content" : "expect(${:spy}).not.toHaveBeenCalledTimes(${:times});",
           "name" : "expect spy not toHaveBeenCalledTimes",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "ntbhct"
         },
         {
           "content" : "expect(${:spy}).not.toHaveBeenCalledWith(${:expected});",
           "name" : "expect spy not toHaveBeenCalledWith",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "nthbcw"
         },
         {
           "content" : "expect(${:value}).not.toMatch(${:expected});",
           "name" : "expect not toMatch",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "nm"
         },
         {
           "content" : "expect(${:value}).not.toThrow(${:expected});",
           "name" : "expect not toBeFalsy",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "ntt"
         },
         {
           "content" : "jasmine.any(${:value});",
           "name" : "jasmine.any",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "any"
         },
         {
           "content" : "jasmine.objectContaining(${:value});",
           "name" : "jasmine.objectContaining",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "oc"
         }
       ]
@@ -346,70 +346,70 @@
           "content" : "spyOn(${:object}, ${:method});",
           "name" : "spyOn",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "so"
         },
         {
           "content" : "spyOn(${:object}, ${:method}).and.callThrough();",
           "name" : "spyOn and callThrough",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "sct"
         },
         {
           "content" : "spyOn(${:object}, ${:method}).and.callFake(${:function});",
           "name" : "spyOn and callThrough",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "scf"
         },
         {
           "content" : "spyOnProperty(${:object}, ${:property}, 'get');",
           "name" : "spyOnProperty get",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "spg"
         },
         {
           "content" : "spyOnProperty(${:object}, ${:property}, 'set');",
           "name" : "spyOnProperty set",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "sps"
         },
         {
           "content" : "spyOn(${:object}, ${:method}).and.returnValue(${:value});",
           "name" : "spyOn and returnValue",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "srv"
         },
         {
           "content" : "spyOn(${:object}, ${:method}).and.stub();",
           "name" : "spyOn and stub",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "ss"
         },
         {
           "content" : "spyOn(${:object}, ${:method}).and.throwError(${:error});",
           "name" : "spyOn and throwError",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "ste"
         },
         {
           "content" : "jasmine.createSpy(${:name});",
           "name" : "createSpy",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "cs"
         },
         {
           "content" : "jasmine.createSpyObj(${:name}, [${:methods}]);",
           "name" : "createSpyObj",
           "scope" : "editor",
-          "syntax" : ["javascript", "typescript"],
+          "syntax" : "javascript",
           "trigger" : "cso"
         }
       ]
