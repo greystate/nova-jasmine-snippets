@@ -121,6 +121,13 @@
           "trigger" : "tbgt"
         },
         {
+          "content" : "expect(${:value}).toBeInstanceOf(${:expected});",
+          "name" : "expect toBeInstanceOf",
+          "scope" : "editor",
+          "syntax" : "javascript",
+          "trigger" : "tbi"
+        },
+        {
           "content" : "expect(${:value}).toBeLessThan(${:expected});",
           "name" : "expect toBeLessThan",
           "scope" : "editor",
@@ -411,6 +418,39 @@
           "scope" : "editor",
           "syntax" : "javascript",
           "trigger" : "cso"
+        }
+      ]
+    },
+    {
+      "name": "Clock",
+      "children": [
+        {
+          "content" : "jasmine.clock.install();",
+          "name" : "clock install",
+          "scope" : "editor",
+          "syntax" : "javascript",
+          "trigger" : "ci"
+        },
+        {
+          "content" : "jasmine.clock.mockDate(${:date});",
+          "name" : "clock mockDate",
+          "scope" : "editor",
+          "syntax" : "javascript",
+          "trigger" : "cmd"
+        },
+        {
+          "content" : "jasmine.clock.tick(${:time});",
+          "name" : "clock tick",
+          "scope" : "editor",
+          "syntax" : "javascript",
+          "trigger" : "ct"
+        },
+        {
+          "content" : "jasmine.clock.uninstall()",
+          "name" : "clock uninstall",
+          "scope" : "editor",
+          "syntax" : "javascript",
+          "trigger" : "cui"
         }
       ]
     }

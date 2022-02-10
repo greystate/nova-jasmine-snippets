@@ -41,6 +41,7 @@ Open Extensions -> Extension Library in Nova (shift + cmd + 2) and search for "K
 | `tbn→`   | expect().toBeNull |
 | `tbt→`   | expect().toBeTruthy |
 | `tbu→`   | expect().toBeUndefined |
+| `tbi→`   | expect().toBeInstanceOf |
 | `tc→`    | expect().toContain |
 | `te→`    | expect().toEqual |
 | `thbc→`  | expect().toHaveBeenCalled |
@@ -79,3 +80,11 @@ Open Extensions -> Extension Library in Nova (shift + cmd + 2) and search for "K
 |`ste→`    | spyOn.and.throwError |
 |`cs→`     | createSpy |
 |`cso→`    | createSpyObj |
+
+### Clock Events
+| Trigger  | Content |
+| -------: | ------- |
+|`ci→`     | jasmine.clock.install() |
+|`cui→`    | jasmine.clock.uninstall() |
+|`cmd→`    | jasmine.clock.mockDate |
+|`ct→`    | jasmine.clock.tick |
